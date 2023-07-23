@@ -1,6 +1,6 @@
 # — PyCodeX —
 
-<img src="https://github.com/diegobajetti/seg3125_p2.github.io/blob/4141908c4b5be096ff96ce8cdeb7ca1f0eddba4c/public/images/gif-1.gif" alt="PyCodeX Home Page" width="100%"/>
+<img src="https://github.com/diegobajetti/seg3125_p2_s5/blob/d14e191e763e46a28608a13c968268ed6535cb1c/public/images/gif-1.gif" alt="PyCodeX Home Page" width="100%"/>
 
 This repository uses the [`gh-pages`][gh-pages] `npm` package to build and deploy a React application. See a live, interactive version of the website [here][live-website].
 
