@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.lessons,
+.challenges,
+.discuss,
+.sign-up {
+  display: flex;
+  height: 100vh;
+  height: 100svh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.lessons {
+  background-image: url("https://diegobajetti.github.io/seg3125_p2_s5/images/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.challenges {
+  background-image: url("https://diegobajetti.github.io/seg3125_p2_s5/images/img-2.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.discuss {
+  background-image: url("https://diegobajetti.github.io/seg3125_p2_s5/images/img-3.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url("https://diegobajetti.github.io/seg3125_p2_s5/images/img-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 960px) {
+  .home,
+  .lessons,
+  .challenges,
+  .discuss,
+  .sign-up {
+    font-size: 60px;
+  }
+}
