@@ -25,7 +25,7 @@ This repository uses the [`gh-pages`][gh-pages] `npm` package to build and deplo
    {
      "name": "seg3125_p2.github.io",
      "version": "0.1.0",
-   + "homepage": "http://diegobajetti.github.io/seg3125_p2.github.io",
+   + "homepage": "http://diegobajetti.github.io/seg3125_p2_s5",
      [...]
    }
    ```
@@ -94,7 +94,7 @@ Since the website is deployed under the [`homepage`][package-json-homepage] URL,
 
          ```css
          * {
-           background-image: url("https://diegobajetti.github.io/check-my-attendance/images/img-1.jpg");
+           background-image: url("https://diegobajetti.github.io/seg3125_p2_s5/images/img-1.jpg");
          }
          ```
 
@@ -158,10 +158,11 @@ Upon opening the deployed GitHub Pages site, the page might be blank until refre
 Specifying the `basename={process.env.PUBLIC_URL}` in the routing root allows the router to extract the base URL of the project and properly display the site.
 
 [gh-pages]: https://github.com/gitname/react-gh-pages
-[live-website]: https://diegobajetti.github.io/check-my-attendance/
+[live-website]: https://diegobajetti.github.io/seg3125_p2_s5/
 [npm-doc]: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
-[package-json-homepage]: https://github.com/diegobajetti/check-my-attendance/blob/master/package.json#L4
-[package-json-predeploy]: https://github.com/diegobajetti/check-my-attendance/blob/master/package.json#L24
-[package-json-deploy]: https://github.com/diegobajetti/check-my-attendance/blob/master/package.json#L25
-[gh-pages-branch]: https://github.com/diegobajetti/check-my-attendance/tree/gh-pages
-[github-action]: https://github.com/diegobajetti/check-my-attendance/actions
+[package-json-homepage]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L4
+[package-json-predeploy]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L24
+[package-json-deploy]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L25
+[gh-pages-branch]: https://github.com/diegobajetti/seg3125_p2_s5/tree/gh-pages
+[github-action]: https://github.com/diegobajetti/seg3125_p2_s5/actions
+[github-pages-doc]: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site
