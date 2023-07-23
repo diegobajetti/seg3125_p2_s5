@@ -73,7 +73,7 @@ The [`gh-pages`][gh-pages] package will deploy the application to the specified 
 
 ### `README.md` file as website
 
-On the first deployment of the app, the package builds the site based on the default GitHub Pages configuration. GitHub Pages displays the site by parsing the target branch (`master` by default) and identifying a source file (e.g., `index.html`, `index.md`, or `README.md`<sup>&#91;[1][github-pages-doc]&#93;</sup>). Upon creating a React app with the `npx create-react-app` command, a `README.md` file is generated and, consequently, regarded as the source file for the site. The `gh-pages` branch is available _after_ the application is built for the first time, and only then the GitHub Pages configuration can be changed in order to display the correct site. After completing step [five](#5-configure-github-pages) above, deploy the application against the `gh-pages` branch.
+On the first deployment of the app, the package builds the site based on the default GitHub Pages configuration. GitHub Pages displays the site by parsing the target branch (`master` by default) and identifying a source file (e.g., `index.html`, `index.md`, or `README.md`<sup>&#91;[1][github-pages-doc]&#93;</sup>). Upon creating a React app with the `npx create-react-app` command, a `README.md` file is generated and, consequently, regarded as the source file for the site. The `gh-pages` branch is available _after_ the application is built for the first time, and only then the GitHub Pages configuration can be changed in order to display the correct site. After completing step [five](#5-configure-github-pages) above, deploy the application against the [`gh-pages`][gh-pages-branch] branch.
 
 ### Broken Media Display
 
