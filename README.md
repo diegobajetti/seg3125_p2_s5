@@ -67,7 +67,7 @@ This repository uses the [`gh-pages`][gh-pages] `npm` package to build and deplo
       - Folder: `/ (root)`
 1. Click on the "Save" button
 
-The [`gh-pages`][gh-pages] package will deploy the application to the specified [URL](#2-add-a-homepage-property-to-the-packagejson-file) whenever the `npm run deploy` command is executed. Once the command is executed successfully, a [GitHub workflow][github-action] links the GitHub page with the source files in the `gh-pages` branch.
+The [`gh-pages`][gh-pages] package will deploy the application to the specified [URL](#2-add-a-homepage-property-to-the-packagejson-file) whenever the `npm run deploy` command is executed. Once the command is executed successfully, a [GitHub workflow][github-action] links the GitHub page with the source files in the [`gh-pages`][gh-pages-branch] branch.
 
 ## Common Issues
 
@@ -131,7 +131,7 @@ Since the website is deployed under the [`homepage`][package-json-homepage] URL,
    - `--include=` — search only files whose base name matches the pattern
    - Regex — find an explanation for the regular expression [here][regex-example]
 
-1. Push these changes to the remote repository and [deploy](#3-deploy-the-react-app) the application. The global `process.env.PUBLIC_URL` variable allows for the images to be displayed when running locally _and_ when being deployed to the remote.
+1. Push these changes to the remote repository and [deploy](#4-deploy-the-react-app) the application. The global `process.env.PUBLIC_URL` variable allows for the images to be displayed when running locally _and_ when being deployed to the remote.
 
 ### Blank Page
 
@@ -161,8 +161,8 @@ Specifying the `basename={process.env.PUBLIC_URL}` in the routing root allows th
 [live-website]: https://diegobajetti.github.io/seg3125_p2_s5/
 [npm-doc]: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 [package-json-homepage]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L4
-[package-json-predeploy]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L24
-[package-json-deploy]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L25
+[package-json-predeploy]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L25
+[package-json-deploy]: https://github.com/diegobajetti/seg3125_p2_s5/blob/master/package.json#L26
 [gh-pages-branch]: https://github.com/diegobajetti/seg3125_p2_s5/tree/gh-pages
 [github-action]: https://github.com/diegobajetti/seg3125_p2_s5/actions
 [github-pages-doc]: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site
