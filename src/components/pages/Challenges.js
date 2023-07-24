@@ -1,6 +1,12 @@
 import React from "react";
 import "../../App.css";
+import CodeEditor from "../CodeEditor";
 
 export default function Challenges() {
-  return <h1 className="challenges">CHALLENGES</h1>;
+  return (
+    <div>
+      <h1 className="challenges">CHALLENGES</h1>
+      <CodeEditor></CodeEditor>
+    </div>
+  );
 }

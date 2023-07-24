@@ -4,7 +4,10 @@ import { Link } from "react-router-dom/dist/index.js";
 function CardItem(props) {
   return (
     <li className="cards__item">
-      <Link className="cards__item__link" to={props.path}>
+      <Link
+        className="cards__item__link"
+        to={`/lesson/${encodeURIComponent(props.path)}`}
+      >
         <figure className="cards__item__pic-wrap" data-category={props.label}>
           <img className="cards__item__img" alt="Coding" src={props.src} />
         </figure>

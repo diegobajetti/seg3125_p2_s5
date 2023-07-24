@@ -13,13 +13,13 @@ function Cards() {
               src={process.env.PUBLIC_URL + "/images/img-1.jpg"}
               text="Introduction to Python Syntax and Variables"
               label="Beginner"
-              path="/services"
+              path="Introduction to Python Syntax and Variables"
             />
             <CardItem
               src={process.env.PUBLIC_URL + "/images/img-5.jpg"}
               text="Working with Control Flow in Python (Conditional Statements and Loops)"
               label="Amateur"
-              path="/services"
+              path="Working with Control Flow in Python (Conditional Statements and Loops)"
             />
           </ul>
           <ul className="cards__items">
@@ -27,19 +27,19 @@ function Cards() {
               src={process.env.PUBLIC_URL + "/images/img-3.jpg"}
               text="Object-Oriented Programming in Python"
               label="Intermediate"
-              path="/services"
+              path="Object-Oriented Programming in Python"
             />
             <CardItem
               src={process.env.PUBLIC_URL + "/images/img-2.jpg"}
               text="Advanced Python Libraries and Frameworks (NumPy and Django)"
               label="Advanced"
-              path="/products"
+              path="Advanced Python Libraries and Frameworks (NumPy and Django)"
             />
             <CardItem
               src={process.env.PUBLIC_URL + "/images/img-4.jpg"}
               text="Design Patterns and Best Practices in Python"
               label="Expert"
-              path="/sign-up"
+              path="Design Patterns and Best Practices in Python"
             />
           </ul>
         </div>

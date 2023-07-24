@@ -1,0 +1,98 @@
+/* DiscussionPanel.css */
+
+.discussion-panel {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f0f0f0; /* Light gray background color */
+  border-radius: 10px; /* Rounded rectangle shape */
+  padding: 20px; /* Add some padding to the panel */
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.discussion-list {
+  list-style: none;
+  padding: 0;
+}
+
+.discussion-item {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.discussion-header {
+  font-weight: bold;
+}
+
+.discussion-content {
+  margin-top: 10px;
+}
+
+.placeholder {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.chat-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.message-text {
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 200px;
+}
+
+.new-message-input {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.new-message-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.new-message-input button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}

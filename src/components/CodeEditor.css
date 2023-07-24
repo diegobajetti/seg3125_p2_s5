@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust this value to control the height of the container */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.test-case-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.test-case {
+  margin: 0 5px;
+}
+
+.code-editor {
+  width: 100%;
+  max-width: 800px; /* Adjust this value to control the width of the code editor */
+  margin-bottom: 20px;
+}
+
+.btns {
+  width: 100%;
+  max-width: 200px; /* Adjust this value to control the width of the button */
+}

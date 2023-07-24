@@ -9,7 +9,8 @@
 .lessons,
 .challenges,
 .discuss,
-.sign-up {
+.sign-up,
+.lesson-page {
   display: flex;
   height: 100vh;
   height: 300px;
@@ -25,6 +26,15 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.lesson-page {
+  background-image: url("https://diegobajetti.github.io/seg3125_p2_s5/images/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 70px;
 }
 
 .challenges {

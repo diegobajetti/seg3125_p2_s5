@@ -37,18 +37,20 @@ function HeroSection() {
       </p>
       <div className="hero-btns">
         <Button
+          to="/lessons"
           className="btns"
           buttonStyle="btn--outline"
           buttonSize={isMobile ? "btn--medium" : "btn--large"}
         >
-          if clicked_button == 'GET STARTED':
+          if clicked_button == 'LEARN':
         </Button>
         <Button
+          to="/sign-up"
           className="btns"
           buttonStyle="btn--primary"
           buttonSize={isMobile ? "btn--medium" : "btn--large"}
         >
-          learn_more = file.readlines()
+          sign_up = file.readlines()
         </Button>
       </div>
     </div>

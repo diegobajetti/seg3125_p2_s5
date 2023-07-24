@@ -1,0 +1,33 @@
+.dropdown-menu {
+  margin-bottom: 15px;
+}
+
+.dropdown-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.progress-bar {
+  /* Add your CSS for circular progress bar here */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.topics-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topics-list li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.topics-list li:hover {
+  background-color: #f0f0f0;
+}
